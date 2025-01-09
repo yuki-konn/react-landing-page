@@ -1561,6 +1561,377 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/scheduler/cjs/scheduler.development.js");
 }
 
+/***/ }),
+
+/***/ "./src/Views/FeedbackForm.js":
+/*!***********************************!*\
+  !*** ./src/Views/FeedbackForm.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   FeedbackForm: () => (/* binding */ FeedbackForm)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/handleSubmit */ "./src/controllers/handleSubmit.js");
+
+
+function FeedbackForm() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "border border-3 border-primary rounded p-3 m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    id: "product-form",
+    onSubmit: _controllers_handleSubmit__WEBPACK_IMPORTED_MODULE_1__.handleSubmit
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Sign up to be notified for discounts or similar products."), "Name: *", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    id: "name",
+    placeholder: "John Smith",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Email: *", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "email",
+    id: "email",
+    placeholder: "email@email.com",
+    required: true
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Phone:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "tel",
+    id: "phone",
+    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+    placeholder: "###-###-####"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "submit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null));
+}
+
+/***/ }),
+
+/***/ "./src/Views/ProductDescription.js":
+/*!*****************************************!*\
+  !*** ./src/Views/ProductDescription.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ProductDescription: () => (/* binding */ ProductDescription)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ProductDescription() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "product-description",
+    className: "card border border-3 border-primary rounded p-3 m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "card-title pb-2"
+  }, "Mainstays 1.7 Liter Electric Kettle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Craving a perfect cup? The Mainstays 1.7L Electric Kettle makes brewing your favorite tea or coffee faster and easier than ever. With simple one-touch operation and a rapid boil, you'll be enjoying a steaming mug in minutes. The convenient cordless design means effortless pouring and serving, while the large water window lets you know exactly when it's time for a refill. Plus, safety features like a concealed heating element and locking lid offer added peace of mind. Get your water boiling quickly and get back to what matters, savoring that delicious brew.")));
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/Views/ProductFeatures.js":
+/*!**************************************!*\
+  !*** ./src/Views/ProductFeatures.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ProductFeatures: () => (/* binding */ ProductFeatures)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ProductFeatures() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "product-features",
+    className: "border border-3 border-primary rounded p-3 m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "list-group"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "border border-2 border-primary rounded bg-light"
+  }, "Features"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Fast 1500W heating"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "1.7L capacity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Illuminated power indicator"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Precise temperature control"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Dual water windows with fill lines"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Stainless steel heating element"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Durable plastic body"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Easy-open lid"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Auto shut-off & boil-dry protection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Cordless with detachable base"))));
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/Views/ProductImages.js":
+/*!************************************!*\
+  !*** ./src/Views/ProductImages.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ProductImages: () => (/* binding */ ProductImages)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ProductImages() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "product-images"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "main-kettle",
+    className: "border border-3 border-primary",
+    src: "./assets/images/kettle1.png"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "other-kettle",
+    src: "./assets/images/kettle2.png"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "other-kettle",
+    src: "./assets/images/kettle3.png"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "other-kettle",
+    src: "./assets/images/kettlebox.png"
+  }));
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/Views/SiteMap.js":
+/*!******************************!*\
+  !*** ./src/Views/SiteMap.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SiteMap: () => (/* binding */ SiteMap)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function SiteMap() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    id: "siteMap"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Site Map"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "list-group text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#product-images"
+  }, "Product Images")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#product-description"
+  }, "Description")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#product-features"
+  }, "Features")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#product-form"
+  }, "Sign up"))));
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/Views/Youtube.js":
+/*!******************************!*\
+  !*** ./src/Views/Youtube.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Youtube: () => (/* binding */ Youtube)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Youtube(props) {
+  const src = props.src;
+  const title = props.title;
+  const captions = props.children;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, captions), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+    width: "560",
+    height: "315",
+    src: src,
+    title: "YouTube video player",
+    frameBorder: "0",
+    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    referrerPolicy: "strict-origin-when-cross-origin",
+    allowFullScreen: true
+  }));
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/controllers/handleSubmit.js":
+/*!*****************************************!*\
+  !*** ./src/controllers/handleSubmit.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleSubmit: () => (/* binding */ handleSubmit)
+/* harmony export */ });
+/* harmony import */ var _modules_FeedbackFormObject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/FeedbackFormObject */ "./src/modules/FeedbackFormObject.js");
+/* harmony import */ var _modules_parseResponse__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/parseResponse */ "./src/modules/parseResponse.js");
+/* harmony import */ var _utils_makePromise__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/makePromise */ "./src/utils/makePromise.js");
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
+
+
+
+
+function handleSubmit(event = new HTMLFormElement()) {
+  event.preventDefault();
+  const inputs = event.target;
+  const nameInput = inputs[0];
+  const emailInput = inputs[1];
+  const phoneInput = inputs[2];
+  const values = [nameInput.value, emailInput.value, phoneInput.value];
+  const formObject = new _modules_FeedbackFormObject__WEBPACK_IMPORTED_MODULE_0__.FeedbackFormObject();
+  formObject.name = values[0];
+  formObject.email = values[1];
+  formObject.phone = values[2];
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`<u>Thank you <b>${formObject.name}</b>, Your information is being processed.</u>`, "outputTag1");
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Name: ${formObject.name}<br>`);
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Email: ${formObject.email}<br>`);
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Phone: ${formObject.phone}<br>`);
+  const promise = (0,_utils_makePromise__WEBPACK_IMPORTED_MODULE_2__.makePromise)("https://myserver.com");
+  promise.then(_modules_parseResponse__WEBPACK_IMPORTED_MODULE_1__.parseResponse);
+  debugger;
+}
+
+/***/ }),
+
+/***/ "./src/modules/FeedbackFormObject.js":
+/*!*******************************************!*\
+  !*** ./src/modules/FeedbackFormObject.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   FeedbackFormObject: () => (/* binding */ FeedbackFormObject)
+/* harmony export */ });
+// TEMPLATE OBJECT
+class FeedbackFormObject {
+  name = "";
+  email = "";
+  phone = "";
+}
+
+/***/ }),
+
+/***/ "./src/modules/getServerResponse.js":
+/*!******************************************!*\
+  !*** ./src/modules/getServerResponse.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   getServerResponse: () => (/* binding */ getServerResponse)
+/* harmony export */ });
+function getServerResponse(resolve) {
+  debugger;
+  setTimeout(activateResolve, 5000);
+  function activateResolve() {
+    const response = {
+      message: `
+      <b style='color: green'>YOUR INFORMATION HAS BEEN SUBMITTED</b>
+      <br>
+      <p class="text-success">You have received a discount code: 
+      <span class="badge badge-pill badge-info">KETTLE2025</span>
+      </p>`
+    };
+    const resolveValue = JSON.stringify(response);
+    resolve(resolveValue);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/modules/parseResponse.js":
+/*!**************************************!*\
+  !*** ./src/modules/parseResponse.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   parseResponse: () => (/* binding */ parseResponse)
+/* harmony export */ });
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
+
+function parseResponse(resolveValue) {
+  const response = JSON.parse(resolveValue);
+  const message = response.message;
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(message, "outputTag1", false);
+}
+
+/***/ }),
+
+/***/ "./src/utils/makePromise.js":
+/*!**********************************!*\
+  !*** ./src/utils/makePromise.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   makePromise: () => (/* binding */ makePromise)
+/* harmony export */ });
+/* harmony import */ var _modules_getServerResponse__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/getServerResponse */ "./src/modules/getServerResponse.js");
+
+function makePromise(url) {
+  debugger;
+  return new Promise(_modules_getServerResponse__WEBPACK_IMPORTED_MODULE_0__.getServerResponse);
+}
+
+/***/ }),
+
+/***/ "./src/utils/output.js":
+/*!*****************************!*\
+  !*** ./src/utils/output.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+function output(message = "", outputTag = "outputTag", shouldAppend = true) {
+  if (shouldAppend) window[outputTag].innerHTML += message;else window[outputTag].innerHTML = message;
+}
+
 /***/ })
 
 /******/ 	});
@@ -1653,21 +2024,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Views_Youtube__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Youtube */ "./src/Views/Youtube.js");
+/* harmony import */ var _Views_ProductImages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/ProductImages */ "./src/Views/ProductImages.js");
+/* harmony import */ var _Views_ProductDescription__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/ProductDescription */ "./src/Views/ProductDescription.js");
+/* harmony import */ var _Views_SiteMap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/SiteMap */ "./src/Views/SiteMap.js");
+/* harmony import */ var _Views_ProductFeatures__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/ProductFeatures */ "./src/Views/ProductFeatures.js");
+/* harmony import */ var _Views_FeedbackForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/FeedbackForm */ "./src/Views/FeedbackForm.js");
+
+
+
+
+
+
 
 
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h2", null, "Mainstays 1.7 Liter Electric Kettle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("img", {
-  src: "./assets/images/kettle1.png"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("h3", null, "Mainstays 1.7 Liter Electric Kettle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("iframe", {
-  width: "560",
-  height: "315",
-  src: "https://www.youtube.com/embed/Gf_SXIN80C4?si=NtX8d6iiVREk4LZ5",
-  title: "YouTube video player",
-  frameborder: "0",
-  allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-  referrerpolicy: "strict-origin-when-cross-origin",
-  allowfullscreen: true
-}))));
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("header", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("main", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductImages__WEBPACK_IMPORTED_MODULE_3__.ProductImages, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductDescription__WEBPACK_IMPORTED_MODULE_4__.ProductDescription, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductFeatures__WEBPACK_IMPORTED_MODULE_6__.ProductFeatures, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Youtube__WEBPACK_IMPORTED_MODULE_2__.Youtube, {
+  title: "Mainstays Electric Kettle",
+  src: "https://www.youtube.com/embed/Gf_SXIN80C4?si=NtX8d6iiVREk4LZ5"
+}, "Review and Unboxing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_FeedbackForm__WEBPACK_IMPORTED_MODULE_7__.FeedbackForm, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_SiteMap__WEBPACK_IMPORTED_MODULE_5__.SiteMap, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
+  id: "copyright"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, "Copyright 2025"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, "Created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("i", null, "Yuki Konishi"))))));
 })();
 
 /******/ })()
