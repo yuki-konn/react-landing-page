@@ -25,7 +25,7 @@ export function handleSubmit(event = new HTMLFormElement()) {
   output(`Email: ${formObject.email}<br>`);
   output(`Phone: ${formObject.phone}<br>`);
 
+  debugger;
   const promise = makePromise("https://myserver.com");
   promise.then(parseResponse);
-  debugger;
 }

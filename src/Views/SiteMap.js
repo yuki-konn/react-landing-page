@@ -15,6 +15,9 @@ export function SiteMap() {
           <a href="#product-features">Features</a>
         </li>
         <li className="list-group-item list-group-item-info">
+          <a href="#product-review">Personal Review</a>
+        </li>
+        <li className="list-group-item list-group-item-info">
           <a href="#product-form">Sign up</a>
         </li>
       </ul>

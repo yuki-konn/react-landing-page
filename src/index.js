@@ -6,6 +6,7 @@ import { ProductDescription } from "./Views/ProductDescription";
 import { SiteMap } from "./Views/SiteMap";
 import { ProductFeatures } from "./Views/ProductFeatures";
 import { FeedbackForm } from "./Views/FeedbackForm";
+import { PersonalReview } from "./Views/PersonalReview";
 
 const root = createRoot(window.bodyTag);
 root.render(
@@ -20,8 +21,9 @@ root.render(
         title="Mainstays Electric Kettle"
         src="https://www.youtube.com/embed/Gf_SXIN80C4?si=NtX8d6iiVREk4LZ5"
       >
-        Review and Unboxing
+        Review and Unboxing from Youtube
       </Youtube>
+      <PersonalReview />
       <FeedbackForm />
     </main>
     <footer>

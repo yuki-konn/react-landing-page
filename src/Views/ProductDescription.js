@@ -23,5 +23,4 @@ export function ProductDescription() {
       </div>
     </section>
   );
-  debugger;
 }

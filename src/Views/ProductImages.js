@@ -14,5 +14,4 @@ export function ProductImages() {
       <img className="other-kettle" src="./assets/images/kettlebox.png" />
     </section>
   );
-  debugger;
 }

@@ -2,6 +2,8 @@
 
 Landing page created with React JS
 
+Landing page is about the electric kettle I have been using for almost 3 years. It is my most important applicance.
+
 - Node modules used are webpack and babel.
 
 ## Folder Structure

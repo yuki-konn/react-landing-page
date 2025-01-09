@@ -1610,6 +1610,32 @@ function FeedbackForm() {
 
 /***/ }),
 
+/***/ "./src/Views/PersonalReview.js":
+/*!*************************************!*\
+  !*** ./src/Views/PersonalReview.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   PersonalReview: () => (/* binding */ PersonalReview)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function PersonalReview() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "product-review",
+    className: "card border border-3 border-primary rounded p-3 m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "card-title pb-2"
+  }, "Personal Review"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I have been using this electric kettle for 3 years now. It is surprisingly durable for how inexpensive it is. I have had 2 other electric kettles, one glass, and another plastic like this one. I prefer using the plastic ones though. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "This electric kettle is very useful for boiling water fast. It's faster than filling up a regular kettle and putting it on the stove. And the automatic turn off when it's boiled is nice, because if you forget you boiled water your house doesn't burn down. The less water you put in it the faster it boils, but even at full load it still boils in about 3 mins. You can even take it off boil part way and still have hot water not hot enough to burn your mouth, but hot enough to warm your soul.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I use this kettle multiple times a day more often than using the microwave. I usually use it to make tea or coffee.")));
+}
+
+/***/ }),
+
 /***/ "./src/Views/ProductDescription.js":
 /*!*****************************************!*\
   !*** ./src/Views/ProductDescription.js ***!
@@ -1632,7 +1658,6 @@ function ProductDescription() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "card-title pb-2"
   }, "Mainstays 1.7 Liter Electric Kettle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Craving a perfect cup? The Mainstays 1.7L Electric Kettle makes brewing your favorite tea or coffee faster and easier than ever. With simple one-touch operation and a rapid boil, you'll be enjoying a steaming mug in minutes. The convenient cordless design means effortless pouring and serving, while the large water window lets you know exactly when it's time for a refill. Plus, safety features like a concealed heating element and locking lid offer added peace of mind. Get your water boiling quickly and get back to what matters, savoring that delicious brew.")));
-  debugger;
 }
 
 /***/ }),
@@ -1679,7 +1704,6 @@ function ProductFeatures() {
   }, "Auto shut-off & boil-dry protection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item"
   }, "Cordless with detachable base"))));
-  debugger;
 }
 
 /***/ }),
@@ -1714,7 +1738,6 @@ function ProductImages() {
     className: "other-kettle",
     src: "./assets/images/kettlebox.png"
   }));
-  debugger;
 }
 
 /***/ }),
@@ -1750,6 +1773,10 @@ function SiteMap() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "#product-features"
   }, "Features")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "#product-review"
+  }, "Personal Review")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "list-group-item list-group-item-info"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "#product-form"
@@ -1824,9 +1851,9 @@ function handleSubmit(event = new HTMLFormElement()) {
   (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Name: ${formObject.name}<br>`);
   (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Email: ${formObject.email}<br>`);
   (0,_utils_output__WEBPACK_IMPORTED_MODULE_3__.output)(`Phone: ${formObject.phone}<br>`);
+  debugger;
   const promise = (0,_utils_makePromise__WEBPACK_IMPORTED_MODULE_2__.makePromise)("https://myserver.com");
   promise.then(_modules_parseResponse__WEBPACK_IMPORTED_MODULE_1__.parseResponse);
-  debugger;
 }
 
 /***/ }),
@@ -2030,6 +2057,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Views_SiteMap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/SiteMap */ "./src/Views/SiteMap.js");
 /* harmony import */ var _Views_ProductFeatures__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/ProductFeatures */ "./src/Views/ProductFeatures.js");
 /* harmony import */ var _Views_FeedbackForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/FeedbackForm */ "./src/Views/FeedbackForm.js");
+/* harmony import */ var _Views_PersonalReview__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Views/PersonalReview */ "./src/Views/PersonalReview.js");
+
 
 
 
@@ -2044,7 +2073,7 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElem
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductImages__WEBPACK_IMPORTED_MODULE_3__.ProductImages, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductDescription__WEBPACK_IMPORTED_MODULE_4__.ProductDescription, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_ProductFeatures__WEBPACK_IMPORTED_MODULE_6__.ProductFeatures, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Youtube__WEBPACK_IMPORTED_MODULE_2__.Youtube, {
   title: "Mainstays Electric Kettle",
   src: "https://www.youtube.com/embed/Gf_SXIN80C4?si=NtX8d6iiVREk4LZ5"
-}, "Review and Unboxing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_FeedbackForm__WEBPACK_IMPORTED_MODULE_7__.FeedbackForm, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_SiteMap__WEBPACK_IMPORTED_MODULE_5__.SiteMap, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
+}, "Review and Unboxing from Youtube"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_PersonalReview__WEBPACK_IMPORTED_MODULE_8__.PersonalReview, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_FeedbackForm__WEBPACK_IMPORTED_MODULE_7__.FeedbackForm, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_SiteMap__WEBPACK_IMPORTED_MODULE_5__.SiteMap, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
   id: "copyright"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, "Copyright 2025"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, "Created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("i", null, "Yuki Konishi"))))));
 })();
