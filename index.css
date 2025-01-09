@@ -1,0 +1,61 @@
+body {
+  background-color: #a0c4e2;
+}
+
+main {
+  text-align: center;
+  align-items: center;
+}
+main h2,
+main h3,
+main p {
+  color: #153046;
+}
+main .card-title {
+  color: #153046;
+}
+main #product-images {
+  padding: 10px 0;
+}
+main #product-images #main-kettle {
+  height: 30vw;
+}
+main #product-images .other-kettle {
+  padding: 5px 5px;
+  height: 23vh;
+}
+main #product-features h3 {
+  padding: 0 135px;
+  background-color: white;
+  color: #153046;
+}
+main #product-features .list-group-item {
+  width: 60%;
+  color: #1a3a55;
+}
+main #product-features .list-group {
+  font-weight: bold;
+  align-items: center;
+}
+main #product-form input {
+  margin: 2px;
+  width: 200px;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  background-color: #181818;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+footer #siteMap .list-group-item {
+  width: 30%;
+}
+footer #siteMap .list-group {
+  font-weight: bold;
+  align-items: center;
+}

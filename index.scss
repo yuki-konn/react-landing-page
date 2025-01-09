@@ -1,0 +1,80 @@
+$bgc: #a0c4e2;
+$color: #1a3a55;
+$title-color: #153046;
+$footer-bg: #181818;
+$footer-color: rgba(255, 255, 255, 1);
+body {
+  background-color: $bgc;
+}
+main {
+  text-align: center;
+  align-items: center;
+
+  h2,
+  h3,
+  p {
+    color: $title-color;
+  }
+  .card-title {
+    color: $title-color;
+  }
+
+  #product-images {
+    padding: 10px 0;
+    #main-kettle {
+      height: 30vw;
+    }
+    .other-kettle {
+      padding: 5px 5px;
+      height: 23vh;
+    }
+  }
+
+  #product-features {
+    h3 {
+      padding: 0 135px;
+      background-color: white;
+      color: $title-color;
+    }
+    .list-group-item {
+      width: 60%;
+      color: $color;
+    }
+    .list-group {
+      font-weight: bold;
+      align-items: center;
+    }
+  }
+
+  #product-form {
+    input {
+      margin: 2px;
+      width: 200px;
+    }
+    // label {
+    //   color: $color;
+    //   font-weight: bold;
+    // }
+  }
+}
+
+footer {
+  color: $footer-color;
+  background-color: $footer-bg;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+
+  #siteMap {
+    .list-group-item {
+      width: 30%;
+    }
+    .list-group {
+      font-weight: bold;
+      align-items: center;
+    }
+  }
+}
