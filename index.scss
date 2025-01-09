@@ -2,7 +2,7 @@ $bgc: #a0c4e2;
 $color: #1a3a55;
 $title-color: #153046;
 $footer-bg: #181818;
-$footer-color: rgba(255, 255, 255, 1);
+$footer-color: #f7f7ff;
 body {
   background-color: $bgc;
 }
@@ -48,8 +48,12 @@ main {
 
   #product-form {
     input {
+      color: $color;
       margin: 2px;
       width: 200px;
+    }
+    span {
+      color: $color;
     }
     // label {
     //   color: $color;
@@ -66,9 +70,16 @@ footer {
   padding: 0px;
   align-items: center;
   justify-content: center;
-  opacity: 0.9;
+  opacity: 0.8;
 
   #siteMap {
+    a {
+      text-decoration: none;
+      &:hover {
+        color: blue;
+      }
+    }
+
     .list-group-item {
       width: 30%;
     }

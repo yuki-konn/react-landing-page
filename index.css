@@ -38,19 +38,29 @@ main #product-features .list-group {
   align-items: center;
 }
 main #product-form input {
+  color: #1a3a55;
   margin: 2px;
   width: 200px;
 }
+main #product-form span {
+  color: #1a3a55;
+}
 
 footer {
-  color: rgb(255, 255, 255);
+  color: #f7f7ff;
   background-color: #181818;
   text-align: center;
   margin: 0px;
   padding: 0px;
   align-items: center;
   justify-content: center;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+footer #siteMap a {
+  text-decoration: none;
+}
+footer #siteMap a:hover {
+  color: blue;
 }
 footer #siteMap .list-group-item {
   width: 30%;

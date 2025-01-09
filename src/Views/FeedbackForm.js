@@ -7,15 +7,18 @@ export function FeedbackForm() {
       <form id="product-form" onSubmit={handleSubmit}>
         <h3>Sign up to be notified for discounts or similar products.</h3>
         {/* <label for="name">Name *: </label> */}
-        Name: *
+        <span>Name: *</span>
+
         <input type="text" id="name" placeholder="John Smith" required />
         <br />
         {/* <label for="email">Email *: </label> */}
-        Email: *
+        <span>Email: *</span>
+
         <input type="email" id="email" placeholder="email@email.com" required />
         <br />
         {/* <label for="phone">Phone: </label> */}
-        Phone:
+        <span>Phone: </span>
+
         <input
           type="tel"
           id="phone"
