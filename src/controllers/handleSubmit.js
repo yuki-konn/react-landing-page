@@ -1,9 +1,9 @@
 import { FeedbackFormObject } from "../modules/FeedbackFormObject";
 import { parseResponse } from "../modules/parseResponse";
-import { makePromise } from "../utils/makePromise";
+import { fetchSimulation } from "../utils/fetchSimulation";
 import { output } from "../utils/output";
 
-export function handleSubmit(event = new HTMLFormElement()) {
+export function handleSubmit(event = new Event()) {
   event.preventDefault();
   const inputs = event.target;
   const nameInput = inputs[0];
@@ -26,6 +26,6 @@ export function handleSubmit(event = new HTMLFormElement()) {
   output(`Phone: ${formObject.phone}<br>`);
 
   debugger;
-  const promise = makePromise("https://myserver.com");
+  const promise = fetchSimulation("https://myserver.com");
   promise.then(parseResponse);
 }
