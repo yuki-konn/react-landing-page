@@ -1,6 +1,6 @@
 import { getServerResponse } from "../modules/getServerResponse";
 
-export function makePromise(url) {
+export function fetchSimulation(url) {
   debugger;
   return new Promise(getServerResponse);
 }
